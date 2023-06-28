@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  text-align: left;
+}
+
+.book-container {
+  height: 500px;
+  width: 300px;
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+.container img {
+  height: 60%;
+  width: 100%;
+}
+
+.details {
+  margin: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.profile-container {
+  height: 400px;
+  width: 500px;
+  border: 1px solid gray;
+  margin: 10px;
+  margin: 0 auto;
+}
+
+.profile-container img {
+  height: 80%;
+  width: 100%;
+}
+
+.profile-container p {
+  margin: 10px;
+}
